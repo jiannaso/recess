@@ -25,8 +25,23 @@ import closeted from '../media/closeted.jpg';
 
 function CraftClub() {
     const date = new Date("December 17, 2025 03:24:00")
-    const grayColor='#F2F2F2'
+    const grayColor = '#F2F2F2'
+//                     Boston Orgs: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
 
+    const orgs = [
+        { link: '1', name: 'Boston Tech Poetics' },
+        { link: '2', name: 'Boston Queer Fiber Arts' },
+        { link: '2', name: 'Live Code Boston' },
+        { link: '2', name: 'Arts at the Armory' },
+        { link: '2', name: 'Artisans Asylum' },
+        { link: '2', name: 'Gather Here' },
+        { link: '2', name: 'Conflux' },
+        { link: '2', name: 'Harvard CAMLab' },
+        { link: 'https://pad.land/BostonArtLists', name: 'Boston Arts List' },
+        { link: '2', name: 'Boston Arts Cal' }
+
+
+    ]
     const [images, setImages] = useState(
         [
 
@@ -109,16 +124,16 @@ function CraftClub() {
                     {/* <p>weekly crafting in Boston & the Bay</p> */}
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: '0.5rem'}}>
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: '0.5rem' }}>
                     <div style={{ width: '200px', marginRight: '10px', paddingRight: '', flex: '0 0 auto' }}>
-                        <h3> <a>calendar</a> ✶ <a>crafts</a></h3>
+                        <h3> <a href='#calendar'>calendar</a> ✶ <a href="#crafts">crafts</a></h3>
 
                     </div>
-                    <div style={{ width: "400px", paddingTop: "",marginRight: '0rem' }}>
+                    <div style={{ width: "400px", paddingTop: "", marginRight: '0rem' }}>
 
                         <h2>soft & silly ways to connect with ourselves, each other, & our crafts</h2>
                         <h4> <b>PLAYGROUND RULES</b></h4>
-                        <p><b>BYOC</b> (bring your own craft), experiment often, take a break from work talk, embrace whimsy
+                        <p>follow your heart, try something new → be bad at it, <a href='https://www.optoutproject.net/about-the-opt-out-project/'>opt out</a>, practice being<a href='https://theanarchistlibrary.org/library/lee-shevek-process-centered-love'> process-centered</a>, reject perfection, embrace whimsy, <a href='https://www.goodreads.com/book/show/42771901-how-to-do-nothing'>do nothing</a>
                         </p>
 
                     </div>
@@ -144,18 +159,32 @@ function CraftClub() {
 
                 </div>
 
-                <h1 style={{ paddingTop: '3rem' }} >Craft Calendar</h1>
+<div className='floating-text'style={{ }}>
+<h1 id='calendar'style={{ paddingTop: '0rem', textAlign: 'left'}} >Craft Calendar</h1>
 
                 {/* Events in the area! */}
                 {/* <br></br> */}
-                <p style={{ paddingBottom: '3rem' }}>
-                    Events within and outside of the community.
+                <p style={{  }}>
                     🌸 = Recess!
-                    <br></br> <br></br>
-                    Boston: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
                     <br></br>
+                    <br></br>
+                    Events from craft communities in Boston & the Bay:
+
+                    <ul style={{ padding: '0rem'}}>
+
+                    {orgs.map((org) => (
+                                <li style={{ margin: '0rem', listStyleType:'none'}}>
+                                    <a href={org.link}>
+                                        {org.name}
+                                    </a>
+                                </li>
+                    ))}
+                    </ul>
+
 
                 </p>
+</div>
+                
                 {/* <br></br> */}
                 {/* 🌱 = Community craft nights (Boston, Bay Area) */}
 
@@ -176,14 +205,14 @@ function CraftClub() {
                             }
 
                         }}
-                        height={'400px'}
+                        height={'500px'}
                         headerToolbar={{
                             right: 'listMonth,week,prev,next' // user can switch between the two
                         }}
                         events={[
                             {
                                 title: '🌸 Recess: Craft & Yap Crafting',
-                                eventColor: {grayColor},
+                                eventColor: { grayColor },
                                 eventTextColor: 'black',
                                 displayEventTime: true,
                                 date: "2025-11-07T18:00:00",
@@ -191,7 +220,7 @@ function CraftClub() {
                             },
                             {
                                 title: '🌸 Cozy Crafting',
-                                eventColor: {grayColor},
+                                eventColor: { grayColor },
                                 eventTextColor: 'black',
                                 displayEventTime: true,
                                 date: "2025-11-20T20:00:00",
@@ -199,25 +228,25 @@ function CraftClub() {
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Aeronaut', date: "2025-12-17T18:30:00",
-                                eventColor: {grayColor},
+                                eventColor: { grayColor },
                                 textColor: 'black',
 
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-12-01T18:30:00",
-                                eventColor: {grayColor},
+                                eventColor: { grayColor },
                                 textColor: 'black'
 
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-11-19T18:30:00",
-                                eventColor: {grayColor},
+                                eventColor: { grayColor },
                                 textColor: 'black'
 
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-11-03T18:30:00",
-                                eventColor: {grayColor},
+                                eventColor: { grayColor },
                                 textColor: 'black'
 
                             },
@@ -252,9 +281,9 @@ function CraftClub() {
                 <div style={{ textAlign: "left" }}>
 
 
-                    <h1 style={{ paddingTop: '4rem' }}>Craft Resources</h1>
+                    <h1 id='crafts' style={{ paddingTop: '4rem' }}>Crafts & Resources</h1>
                     <p>
-                        What got me started and what continues to inspire me! I owe my craft life to the worldwide craft community online and in my many homes.
+                        Resources on what got me started and what continues to inspire me! I owe my craft life to the worldwide craft community online and in my many homes.
 
                         <h2 style={{ paddingTop: '2rem' }}>Knitting</h2>
                         I grew up crocheting with my lola but knitting has become my favorite fiber art. I freehand most designs I knit; it connects me to myself, my taste, my body, and my craft. I have very simple freehand guides that I'm working on sharing!

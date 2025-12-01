@@ -49,14 +49,18 @@ body {
   display: flex;
 }
 
+.floating-text {
+  float:left;
+  width: 270px;
+   padding-right: 2rem;
+    margin-right: 5rem;
+}
+
 @media (max-width: 799px) {
-  .playgroundBox {
-    width: 95vw;
-    /* max-width: 400px; */
-    /* height: auto;
-    min-height: 300px;
-    padding: 1rem;
-    margin-top: 100px; */
+  .floating-text {
+    float:none;
+    width: 100%;
+
   }
 
   .currently-box {
