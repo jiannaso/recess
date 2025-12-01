@@ -327,11 +327,11 @@ function CraftClub() {
                                 <h4>Creators</h4>
                                 <ul>
                                     <li>
-                                        Loupy Studio: my OG inspo! She has the most slayful free patterns.
+                                        Loupy Studio: my OG inspo! She has the most slayful free patterns
                                     </li>
 
                                     <li>
-                                        : incredibleeee algorithmic knitting patterns
+                                        Dazy Chain: incredibleeee algorithmic patterns
                                     </li>
 
                                     <li>
