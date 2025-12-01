@@ -25,6 +25,7 @@ import closeted from '../media/closeted.jpg';
 
 function CraftClub() {
     const date = new Date("December 17, 2025 03:24:00")
+    const grayColor='#F2F2F2'
 
     useEffect(() => {
         document.title = 'recess';
@@ -119,7 +120,7 @@ function CraftClub() {
                     </div>
                     <div style={{ width: "400px", paddingTop: "",marginRight: '0rem' }}>
 
-                        <h2>low-pressure time to reconnect with ourselves, each other, & our crafts</h2>
+                        <h2>low-pressure time to connect with ourselves, each other, & our crafts</h2>
                         <h4> <b>PLAYGROUND RULES</b></h4>
                         <p><b>BYOC</b> (bring your own craft), experiment often, take a break from work talk, embrace whimsy
                         </p>
@@ -164,7 +165,7 @@ function CraftClub() {
 
                 <div id='calendar'>
                     <FullCalendar id='calendar'
-                        eventBackgroundColor={'white'}
+                        eventBackgroundColor={grayColor}
                         plugins={[dayGridPlugin, listPlugin]}
                         initialView='listMonth'
                         titleFormat={{ month: 'numeric', day: 'numeric' }}
@@ -186,7 +187,7 @@ function CraftClub() {
                         events={[
                             {
                                 title: '🌸 Recess: Craft & Yap Crafting',
-                                eventColor: '#FFFFFF',
+                                eventColor: {grayColor},
                                 eventTextColor: 'black',
                                 displayEventTime: true,
                                 date: "2025-11-07T18:00:00",
@@ -194,7 +195,7 @@ function CraftClub() {
                             },
                             {
                                 title: '🌸 Cozy Crafting',
-                                eventColor: '#FFFFFF',
+                                eventColor: {grayColor},
                                 eventTextColor: 'black',
                                 displayEventTime: true,
                                 date: "2025-11-20T20:00:00",
@@ -202,25 +203,25 @@ function CraftClub() {
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Aeronaut', date: "2025-12-17T18:30:00",
-                                color: '#FFFFFF',
+                                eventColor: {grayColor},
                                 textColor: 'black',
 
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-12-01T18:30:00",
-                                color: '#FFFFFF',
+                                eventColor: {grayColor},
                                 textColor: 'black'
 
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-11-19T18:30:00",
-                                color: '#FFFFFF',
+                                eventColor: {grayColor},
                                 textColor: 'black'
 
                             },
                             {
                                 title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-11-03T18:30:00",
-                                color: '#FFFFFF',
+                                eventColor: {grayColor},
                                 textColor: 'black'
 
                             },
