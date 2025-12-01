@@ -29,16 +29,19 @@ function CraftClub() {
 //                     Boston Orgs: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
 
     const orgs = [
-        { link: '1', name: 'Boston Tech Poetics' },
-        { link: '2', name: 'Boston Queer Fiber Arts' },
-        { link: '2', name: 'Live Code Boston' },
-        { link: '2', name: 'Arts at the Armory' },
-        { link: '2', name: 'Artisans Asylum' },
-        { link: '2', name: 'Gather Here' },
-        { link: '2', name: 'Conflux' },
-        { link: '2', name: 'Harvard CAMLab' },
+        { link: 'https://www.instagram.com/bostontechpoetics/?hl=en', name: 'Boston Tech Poetics' },
+        { link: 'https://www.instagram.com/bostonqueerfiberarts/?hl=en', name: 'Boston Queer Fiber Arts' },
+        { link: 'https://livecode.boston/', name: 'Live Code Boston' },
+        { link: 'https://artsatthearmory.org/', name: 'Arts at the Armory' },
+        { link: 'https://www.artisansasylum.com/', name: 'Artisans Asylum' },
+        { link: 'https://gatherhereonline.com/?srsltid=AfmBOooJ3xRZpH9H1Z-buQMgPqxGRlpIxl-hD8OEhzeVxPrGW82j0RQw', name: 'Gather Here' },
+        { link: 'https://confluxcollective.org/', name: 'Conflux Collective' },
+        { link: 'https://camlab.fas.harvard.edu/', name: 'Harvard CAMLab' },
         { link: 'https://pad.land/BostonArtLists', name: 'Boston Arts List' },
-        { link: '2', name: 'Boston Arts Cal' }
+        { link: 'https://www.artsboston.org/abcalendar/', name: 'Arts Boston Calendar' },
+        { link: 'https://grayarea.org/course/creative-code-intensive/', name: 'Gray Area' },
+        { link: 'https://rootdivision.org/', name: 'Root Division' },
+        { link:'https://bituinstudio.com/', name:'Bituin Studio'}
 
 
     ]
@@ -131,9 +134,9 @@ function CraftClub() {
                     </div>
                     <div style={{ width: "400px", paddingTop: "", marginRight: '0rem' }}>
 
-                        <h2>soft & silly ways to connect with ourselves, each other, & our crafts</h2>
+                        <h2>soft ways to connect with ourselves, each other, & our crafts</h2>
                         <h4> <b>PLAYGROUND RULES</b></h4>
-                        <p>follow your heart, try something new → be bad at it, <a href='https://www.optoutproject.net/about-the-opt-out-project/'>opt out</a>, practice being<a href='https://theanarchistlibrary.org/library/lee-shevek-process-centered-love'> process-centered</a>, reject perfection, embrace whimsy, <a href='https://www.goodreads.com/book/show/42771901-how-to-do-nothing'>do nothing</a>
+                        <p>follow your heart, try something new → be bad at it, <a href='https://www.optoutproject.net/about-the-opt-out-project/'>opt out</a>, practice being<a href='https://theanarchistlibrary.org/library/lee-shevek-process-centered-love'> process-centered</a>, reject perfection, embrace whimsy, <a href='https://infrastructures.us/en/class/'>challenge</a>  the technocapitalist worldview, do <a href='https://www.goodreads.com/book/show/42771901-how-to-do-nothing'> nothing</a>
                         </p>
 
                     </div>
@@ -295,30 +298,31 @@ function CraftClub() {
 
                                 <ul>
                                     <li>
-                                        Knitting and purling: the only two stitches you'll ever need xx
+                                        How to Knit and Purl [<a href='https://www.youtube.com/watch?v=04yQXiQGsLs'>youtube</a>]: the only two stitches you'll ever need xx
                                     </li>
 
                                     <li>
-                                        How to freehand: how to knit without a pattern
+                                        How to freehand: lots of resources on @novemberr.studios [<a href='https://www.instagram.com/novemberr.studios/reels/'>IG</a>], starting with this series: <a href='https://www.instagram.com/reel/DLlKjQoRv86/'>1: inspo</a>, <a href='https://www.instagram.com/reel/DLqS5PYzauZ/'>2: construction</a>, <a href='https://www.instagram.com/reel/DL8QOHWxtts/'>3: gauge swatch</a>, <a href='https://www.instagram.com/reel/DMJN1lDR-MX/'>4: knitting</a>!
                                     </li>
 
                                     <li>
-                                        Bonnet tutorial: a perfect beginner project
+                                        Bonnet patterns for <a href='https://www.youtube.com/watch?v=KujHVLXpA2o'>crocheting</a> or <a href='https://www.youtube.com/watch?v=t3-GCLRYGaA&pp=ygULYm9ubmV0IGtuaXQ%3D'>knitting</a> by Material Grrrlz: a perfect, short, sweet, & satisfying beginner project
                                     </li>
 
                                     <li>
-                                        Stretchy bind-offs: how to finish a project
+                                        Finishing a project: <a href='https://www.susannawinter.net/post/updated-comparison-of-20-bind-off-methods#google_vignette'>How Stretchy is Stretchy? Updated Comparison of 20 Bind-off Methods
+</a>
                                     </li>
 
                                     <li>
                                         Yarn stores:
-                                        Gather Here (Cambridge),
-                                        Flying Squirrel (Oakland),
-                                        secondhand stores (anywhere)
+                                        <a href='https://blacksquirrelberkeley.com/'>Gather Here</a> (Cambridge), <a href='https://makeandmendshop.com/?srsltid=AfmBOopVPFX6V90cQkGYdFb4AiKmSmUkUhGv6GG0Qif0oo6cZ8UgY2e8'>Make and Mend (Somerville)</a>
+                                        <a href='https://blacksquirrelberkeley.com/'>Black Squirrel Yarns</a> (Berkeley),
+                                        secondhand/thrift stores (anywhere!!! usually in the craft/home section)
                                     </li>
 
                                     <li>
-                                        Positive and negative ease: how to make something "fitted" or "loose"
+                                        Positive and negative ease is how to make something "fitted" or "loose". <a href='https://www.purlsoho.com/create/understanding-ease-selecting-your-size/?srsltid=AfmBOoruOB5UKHoJO7ES4nmIMh3CUtQZtyuUxF3Dtd2BOfNbZg1AIwXP'>This</a> is a perf beginner guide from Purl Soho.
                                     </li>
                                 </ul>
                             </div>
@@ -327,19 +331,15 @@ function CraftClub() {
                                 <h4>Creators</h4>
                                 <ul>
                                     <li>
-                                        Loupy Studio: my OG inspo! She has the most slayful free patterns
+                                        <a href='https://www.loupystudio.co.uk/'>Loupy Studio</a>: my OG inspo! She has the most slayful free patterns
                                     </li>
 
                                     <li>
-                                        Dazy Chain: incredibleeee algorithmic patterns
+                                        <a href='https://www.instagram.com/dazy_chains/'>Dazy Chains</a>: incredibleeee algorithmic patterns
                                     </li>
 
                                     <li>
-                                        Cristina Criaco: lovely asymmetrical stripes
-                                    </li>
-
-                                    <li>
-                                        hi
+                                        <a href='https://www.instagram.com/cristinacriaco/'>Cristina Criaco</a>: lovely asymmetrical stripes
                                     </li>
                                 </ul>
                             </div>
@@ -349,23 +349,21 @@ function CraftClub() {
 
                                 <ul>
                                     <li>
-                                        Vera : one of the coolest computational knitting projects
+                                        <a href='https://www.media.mit.edu/projects/computational-knitting-patterns/overview/'>Computational Knitting Patterns (MIT Media Lab)</a>
                                     </li>
 
                                     <li>
-                                        The political power of knitting
+                                        Syllabus: <a href='../media/AFVS136K.pdf'>Woven Forms: The Textile Studio</a> (Harvard AFVS 136K)
                                     </li>
 
                                     <li>
-                                        This Harvard syllabus on weaving
+                                        <a href='https://opensource.com/article/18/6/how-programming-evolved-knitting'>
+                                        Programming owes its strength to our long legacy of knitting
+                                        </a>
                                     </li>
 
                                     <li>
-                                        Knitting as a form of protest
-                                    </li>
-
-                                    <li>
-                                        more on are.na
+                                        Are.na: <a href='https://www.are.na/ji-so/yarnwork-as-possibility-and-protest'>yarnwork as possibility and protest</a> 
                                     </li>
                                 </ul>
                             </div>
