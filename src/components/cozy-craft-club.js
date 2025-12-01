@@ -231,13 +231,13 @@ function CraftClub() {
 
                             },
                             {
-                                title: 'Boston Queer Fiber Arts @ Aeronaut', date: "2025-12-17T18:30:00",
+                                title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-12-17T18:30:00",
                                 eventColor: { grayColor },
                                 textColor: 'black',
 
                             },
                             {
-                                title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-12-01T18:30:00",
+                                title: 'Boston Queer Fiber Arts @ Aeronaut', date: "2025-12-01T18:30:00",
                                 eventColor: { grayColor },
                                 textColor: 'black'
 
