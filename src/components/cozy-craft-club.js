@@ -27,10 +27,6 @@ function CraftClub() {
     const date = new Date("December 17, 2025 03:24:00")
     const grayColor='#F2F2F2'
 
-    useEffect(() => {
-        document.title = 'recess';
-    }, []);
-
     const [images, setImages] = useState(
         [
 
@@ -120,7 +116,7 @@ function CraftClub() {
                     </div>
                     <div style={{ width: "400px", paddingTop: "",marginRight: '0rem' }}>
 
-                        <h2>low-pressure time to connect with ourselves, each other, & our crafts</h2>
+                        <h2>soft & silly ways to connect with ourselves, each other, & our crafts</h2>
                         <h4> <b>PLAYGROUND RULES</b></h4>
                         <p><b>BYOC</b> (bring your own craft), experiment often, take a break from work talk, embrace whimsy
                         </p>
