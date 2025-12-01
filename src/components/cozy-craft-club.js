@@ -132,7 +132,7 @@ function CraftClub() {
                         <h3> <a href='#calendar'>calendar</a> ✶ <a href="#crafts">crafts</a></h3>
 
                     </div>
-                    <div style={{ width: "400px", paddingTop: "", marginRight: '0rem' }}>
+                    <div style={{ width: "720px", paddingTop: "", marginRight: '0rem' }}>
 
                         <h2>soft ways to connect with ourselves, each other, & our crafts</h2>
                         <h4> <b>PLAYGROUND RULES</b></h4>
