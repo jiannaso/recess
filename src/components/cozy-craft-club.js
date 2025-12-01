@@ -375,7 +375,13 @@ function CraftClub() {
 
             </div>
 
+            <h4 style={{ paddingBottom: '3rem', paddingTop: "2rem", textAlign:'center' }}>
+                🌸
+                <br></br>
+                <br></br>
 
+                This playground was <a href='jiso.design/journal/handcrafted'>hand-crafted </a>by Ji with assets made by Filipino artists
+</h4>
         </div>
     );
 }
