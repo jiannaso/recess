@@ -169,6 +169,7 @@ function CraftClub() {
                 {/* <br></br> */}
                 <p style={{  }}>
                     🌸 = Recess!
+                    <br></br>(ask <a href='https://www.jiso.design'>Ji</a> for address)
                     <br></br>
                     <br></br>
                     Events from craft communities in Boston & the Bay:
@@ -222,7 +223,7 @@ function CraftClub() {
 
                             },
                             {
-                                title: '🌸 Cozy Crafting',
+                                title: '🌸 Recess: Cozy Crafting',
                                 eventColor: { grayColor },
                                 eventTextColor: 'black',
                                 displayEventTime: true,
@@ -254,7 +255,7 @@ function CraftClub() {
 
                             },
                             {
-                                title: '🌸 Cozy Craft Club',
+                                title: '🌸 Recess: Cozy Crafting',
                                 eventColor: 'pink',
                                 eventTextColor: 'black',
                                 date: "2025-12-05T20:00:00",
@@ -380,7 +381,7 @@ function CraftClub() {
                 <br></br>
                 <br></br>
 
-                This playground was <a href='jiso.design/journal/handcrafted'>hand-crafted </a>by Ji with assets made by Filipino artists
+                This playground was <a href='https://www.jiso.design/journal/handcrafted'>hand-crafted </a>by Ji with assets made by Filipino artists
 </h4>
         </div>
     );
