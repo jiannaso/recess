@@ -169,6 +169,7 @@ function CraftClub() {
                 {/* <br></br> */}
                 <p style={{  }}>
                     🌸 = Recess!
+                    <br></br> <b>BYOC</b> Bring Your Own Craft
                     <br></br>(ask <a href='https://www.jiso.design'>Ji</a> for address)
                     <br></br>
                     <br></br>
@@ -317,8 +318,8 @@ function CraftClub() {
 
                                     <li>
                                         Yarn stores:
-                                        <a href='https://blacksquirrelberkeley.com/'>Gather Here</a> (Cambridge), <a href='https://makeandmendshop.com/?srsltid=AfmBOopVPFX6V90cQkGYdFb4AiKmSmUkUhGv6GG0Qif0oo6cZ8UgY2e8'>Make and Mend (Somerville)</a>
-                                        <a href='https://blacksquirrelberkeley.com/'>Black Squirrel Yarns</a> (Berkeley),
+                                        <a href='https://blacksquirrelberkeley.com/'> Gather Here</a> (Cambridge), <a href='https://makeandmendshop.com/?srsltid=AfmBOopVPFX6V90cQkGYdFb4AiKmSmUkUhGv6GG0Qif0oo6cZ8UgY2e8' >Make and Mend </a>(Somerville),
+                                        <a href='https://blacksquirrelberkeley.com/'> Black Squirrel Yarns</a> (Berkeley),
                                         secondhand/thrift stores (anywhere!!! usually in the craft/home section)
                                     </li>
 
