@@ -5,6 +5,7 @@ import dayGridPlugin from '@fullcalendar/daygrid' // a plugin!
 import { Calendar } from '@fullcalendar/core'
 import listPlugin from '@fullcalendar/list';
 // import '../App.css';
+import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
 import flower from '../media/flower.jpeg';
 import { useState, useEffect } from "react";
@@ -26,7 +27,7 @@ import closeted from '../media/closeted.jpg';
 function CraftClub() {
     const date = new Date("December 17, 2025 03:24:00")
     const grayColor = '#F2F2F2'
-//                     Boston Orgs: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
+    //                     Boston Orgs: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
 
     const orgs = [
         { link: 'https://www.instagram.com/bostontechpoetics/?hl=en', name: 'Boston Tech Poetics' },
@@ -41,7 +42,7 @@ function CraftClub() {
         { link: 'https://www.artsboston.org/abcalendar/', name: 'Arts Boston Calendar' },
         { link: 'https://grayarea.org/course/creative-code-intensive/', name: 'Gray Area' },
         { link: 'https://rootdivision.org/', name: 'Root Division' },
-        { link:'https://bituinstudio.com/', name:'Bituin Studio'}
+        { link: 'https://bituinstudio.com/', name: 'Bituin Studio' }
 
 
     ]
@@ -162,41 +163,84 @@ function CraftClub() {
 
                 </div>
 
-<div className='floating-text'style={{ }}>
-<h1 id='calendar'style={{ paddingTop: '0rem', textAlign: 'left'}} >Craft Calendar</h1>
+                <div className='floating-text' style={{}}>
+                    <h1 id='calendar' style={{ paddingTop: '0rem', textAlign: 'left' }} >Craft Calendar</h1>
+                    {/* Events in the area! */}
+                    {/* <br></br> */}
+                    <p style={{}}>
+                        <a href='https://calendar.google.com/calendar/u/0?cid=NTQ1YzdkZGM3OTQwZGM0M2UzOGYxZTE1Mjc0MjNjYmNlOTBiMzhhMTVhNDdkMzJlMGFjNjQyZmYzYTY3ZjhjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t'>add the google calendar</a>
+                        <br></br>
+                        🌸 = Recess!
 
-                {/* Events in the area! */}
-                {/* <br></br> */}
-                <p style={{  }}>
-                    🌸 = Recess!
-                    <br></br> <b>BYOC</b> Bring Your Own Craft
-                    <br></br>(ask <a href='https://www.jiso.design'>Ji</a> for address)
-                    <br></br>
-                    <br></br>
-                    Events from craft communities in Boston & the Bay:
+                        <br></br>
+                        <br></br>
+                        Craft communities:
 
-                    <ul style={{ padding: '0rem'}}>
+                        <b>Boston</b>
+                        <ul style={{ padding: '0rem' }}>
 
-                    {orgs.map((org) => (
-                                <li style={{ margin: '0rem', listStyleType:'none'}}>
+                            {orgs.map((org) => (
+                                <li style={{ margin: '0rem', listStyleType: 'none' }}>
                                     <a href={org.link}>
                                         {org.name}
                                     </a>
                                 </li>
-                    ))}
-                    </ul>
+                            ))}
+                        </ul>
+
+                        <b>Bay Area</b>
+                        <ul style={{ padding: '0rem' }}>
+
+                            {orgs.map((org) => (
+                                <li style={{ margin: '0rem', listStyleType: 'none' }}>
+                                    <a href={org.link}>
+                                        {org.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+
+                        <b>New York</b>
+                        <ul style={{ padding: '0rem' }}>
+
+                            {orgs.map((org) => (
+                                <li style={{ margin: '0rem', listStyleType: 'none' }}>
+                                    <a href={org.link}>
+                                        {org.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+
+                        <b></b>
+                        <ul style={{ padding: '0rem' }}>
+
+                            {orgs.map((org) => (
+                                <li style={{ margin: '0rem', listStyleType: 'none' }}>
+                                    <a href={org.link}>
+                                        {org.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
 
 
-                </p>
-</div>
-                
+                    </p>
+                </div>
+
                 {/* <br></br> */}
                 {/* 🌱 = Community craft nights (Boston, Bay Area) */}
+
+                {/* 
+AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
+545c7ddc7940dc43e38f1e1527423cbce90b38a15a47d32e0ac642ff3a67f8c0@group.calendar.google.com
+
+*/}
 
                 <div id='calendar'>
                     <FullCalendar id='calendar'
                         eventBackgroundColor={grayColor}
-                        plugins={[dayGridPlugin, listPlugin]}
+                        plugins={[dayGridPlugin, listPlugin, googleCalendarPlugin]}
                         initialView='listMonth'
                         titleFormat={{ month: 'numeric', day: 'numeric' }}
                         eventDisplay={''}
@@ -214,62 +258,10 @@ function CraftClub() {
                         headerToolbar={{
                             right: 'listMonth,week,prev,next' // user can switch between the two
                         }}
-                        events={[
-                            {
-                                title: '🌸 Recess: Craft & Yap Crafting',
-                                eventColor: { grayColor },
-                                eventTextColor: 'black',
-                                displayEventTime: true,
-                                date: "2025-11-07T18:00:00",
-
-                            },
-                            {
-                                title: '🌸 Recess: Cozy Crafting',
-                                eventColor: { grayColor },
-                                eventTextColor: 'black',
-                                displayEventTime: true,
-                                date: "2025-11-20T20:00:00",
-
-                            },
-                            {
-                                title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-12-17T18:30:00",
-                                eventColor: { grayColor },
-                                textColor: 'black',
-
-                            },
-                            {
-                                title: 'Boston Queer Fiber Arts @ Aeronaut', date: "2025-12-01T18:30:00",
-                                eventColor: { grayColor },
-                                textColor: 'black'
-
-                            },
-                            {
-                                title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-11-19T18:30:00",
-                                eventColor: { grayColor },
-                                textColor: 'black'
-
-                            },
-                            {
-                                title: 'Boston Queer Fiber Arts @ Lamplighter', date: "2025-11-03T18:30:00",
-                                eventColor: { grayColor },
-                                textColor: 'black'
-
-                            },
-                            {
-                                title: '🌸 Recess: Cozy Crafting',
-                                eventColor: 'pink',
-                                eventTextColor: 'black',
-                                date: "2025-12-05T20:00:00",
-
-                            },
-                            {
-                                title: 'Boston Tech Poetics Monthly Meetup',
-                                eventColor: 'pink',
-                                eventTextColor: 'black',
-                                date: "2025-11-28T18:00:00",
-
-                            }
-                        ]}
+                        googleCalendarApiKey={'AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ'}
+                        events={{
+                            googleCalendarId: '545c7ddc7940dc43e38f1e1527423cbce90b38a15a47d32e0ac642ff3a67f8c0@group.calendar.google.com'
+                        }}
                         duration={'14'}
                     //   headerToolbar= {
                     //     left: 'prev,next',
@@ -313,7 +305,7 @@ function CraftClub() {
 
                                     <li>
                                         Finishing a project: <a href='https://www.susannawinter.net/post/updated-comparison-of-20-bind-off-methods#google_vignette'>How Stretchy is Stretchy? Updated Comparison of 20 Bind-off Methods
-</a>
+                                        </a>
                                     </li>
 
                                     <li>
@@ -360,12 +352,12 @@ function CraftClub() {
 
                                     <li>
                                         <a href='https://opensource.com/article/18/6/how-programming-evolved-knitting'>
-                                        Programming owes its strength to our long legacy of knitting
+                                            Programming owes its strength to our long legacy of knitting
                                         </a>
                                     </li>
 
                                     <li>
-                                        Are.na: <a href='https://www.are.na/ji-so/yarnwork-as-possibility-and-protest'>yarnwork as possibility and protest</a> 
+                                        Are.na: <a href='https://www.are.na/ji-so/yarnwork-as-possibility-and-protest'>yarnwork as possibility and protest</a>
                                     </li>
                                 </ul>
                             </div>
@@ -377,13 +369,13 @@ function CraftClub() {
 
             </div>
 
-            <h4 style={{ paddingBottom: '3rem', paddingTop: "2rem", textAlign:'center' }}>
+            <h4 style={{ paddingBottom: '3rem', paddingTop: "2rem", textAlign: 'center' }}>
                 🌸
                 <br></br>
                 <br></br>
 
                 This playground was <a href='https://www.jiso.design/journal/handcrafted'>hand-crafted </a>by Ji with assets made by Filipino artists
-</h4>
+            </h4>
         </div>
     );
 }
