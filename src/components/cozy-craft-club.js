@@ -206,6 +206,11 @@ function CraftClub() {
 
                         🌸 = Recess! (hosted by our community)
 
+                        
+                        <br></br>
+                        <br></br>
+
+                        Craft nights: <b>BYOC</b> (Bring Your Own Craft) is mandatory! "Craft" is medium-inclusive: textiles, paints, digital art, collage, coloring books, life itself. The craft world is your oyster 🌱
                         <br></br>
                         <br></br>
                         Other events are populated manually, from (some of) the orgs below ↓
