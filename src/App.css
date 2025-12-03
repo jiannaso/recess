@@ -52,13 +52,17 @@ body {
   width: 275px;
   margin: 10px 10px 0 0;
   padding: 20px;
-  background-color: rgb(255,255,255,.5);
+  background-color: rgb(255,255,255,.6);
   min-width: 275px;
 }
 
 .org-list li {
   margin-bottom: .75rem;
   list-style-type: none;
+}
+
+.org-list a {
+  color: #3A3A3A;
 }
 
 .floating-text {

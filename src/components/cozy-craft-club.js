@@ -274,11 +274,15 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
 
                 <div style={{ textAlign: "left" }}>
                 <h1 id='crafts' style={{ paddingTop: '4rem' }}>Craft communities</h1>
-                <p>🌸 = favs of Recess<br></br></p>
+                <p>In Boston, the Bay, New York, & the Philippines. + inspirations! 
+                    <br></br>
+                    <br></br>
+
+                    🌸 = favs of Recess<br></br></p>
 <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', overflow: 'scroll'}}>
 
 <div className='org-list'>
-Boston                        <ul style={{ padding: '0rem' }}>
+<h3>Boston</h3>                        <ul style={{ padding: '0rem' }}>
 
                             {bostonorgs.map((org) => (
                                 <li>
@@ -291,7 +295,8 @@ Boston                        <ul style={{ padding: '0rem' }}>
 </div>
 
 <div className='org-list'>
-Bay Area                        <ul style={{ padding: '0rem' }}>
+    <h3>Bay Area</h3>
+                        <ul style={{ padding: '0rem' }}>
 
                             {bayorgs.map((org) => (
                                 <li>
@@ -304,7 +309,7 @@ Bay Area                        <ul style={{ padding: '0rem' }}>
 </div>
 
 <div className='org-list'>
-New York                        <ul style={{ padding: '0rem' }}>
+<h3>New York</h3>                       <ul style={{ padding: '0rem' }}>
 
                             {nyorgs.map((org) => (
                                 <li>
@@ -317,7 +322,7 @@ New York                        <ul style={{ padding: '0rem' }}>
 </div>
 
 <div className='org-list'>
-Philippines                        <ul style={{ padding: '0rem' }}>
+<h3>Philippines</h3>                        <ul style={{ padding: '0rem' }}>
 
                             {philorgs.map((org) => (
                                 <li>
@@ -330,7 +335,7 @@ Philippines                        <ul style={{ padding: '0rem' }}>
 </div>
 
 <div className='org-list'>
-Communities that inspire us
+<h3>Inspiration</h3>
                         <ul style={{ padding: '0rem' }}>
 
                             {otherorgs.map((org) => (
