@@ -29,7 +29,7 @@ function CraftClub() {
     const grayColor = '#F2F2F2'
     //                     Boston Orgs: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
 
-    const orgs = [
+    const bostonorgs = [
         { link: 'https://www.instagram.com/bostontechpoetics/?hl=en', name: 'Boston Tech Poetics' },
         { link: 'https://www.instagram.com/bostonqueerfiberarts/?hl=en', name: 'Boston Queer Fiber Arts' },
         { link: 'https://livecode.boston/', name: 'Live Code Boston' },
@@ -40,12 +40,42 @@ function CraftClub() {
         { link: 'https://camlab.fas.harvard.edu/', name: 'Harvard CAMLab' },
         { link: 'https://pad.land/BostonArtLists', name: 'Boston Arts List' },
         { link: 'https://www.artsboston.org/abcalendar/', name: 'Arts Boston Calendar' },
-        { link: 'https://grayarea.org/course/creative-code-intensive/', name: 'Gray Area' },
-        { link: 'https://rootdivision.org/', name: 'Root Division' },
-        { link: 'https://bituinstudio.com/', name: 'Bituin Studio' }
 
 
     ]
+
+    const nyorgs = [
+        { link: 'https://www.index-space.org/', name: 'Index Space' },
+        { link: 'https://sfpc.study/', name: 'School for Poetic Computation' },
+        { link: 'https://feministspatialpractices.com/', name: 'Feminist Spatial Practices'}
+    ]
+
+    const bayorgs = [
+        { link: 'https://grayarea.org/course/creative-code-intensive/', name: 'Gray Area' },
+        { link: 'https://rootdivision.org/', name: 'Root Division' },
+        { link: 'https://bituinstudio.com/', name: 'Bituin Studio' },
+        { link: 'https://tiat.place/', name: 'The Intersection of Art and Technology' }
+
+
+
+    ]
+
+    const otherorgs = [
+        { link: 'https://playdates.commnunity/', name: 'Playdates' },
+        { link: 'https://conditionaldesign.org/', name: 'Conditional Design' },
+    ]
+
+    const philorgs = [
+        { link: 'https://www.instagram.com/ipo_ipo_projects/?hl=en', name: 'Ipo Ipo Projects' },
+        { link: 'https://plantvision.substack.com/', name: 'Plant Visions' },
+        { link: 'https://www.instagram.com/__63.ph/?hl=en', name: 'Space 63' },
+
+        { link: 'https://www.ancan.store/', name: 'Ancán' },
+        { link: 'https://developh.org/', name: 'DeveloPh' },
+
+    ]
+
+
     const [images, setImages] = useState(
         [
 
@@ -168,18 +198,21 @@ function CraftClub() {
                     {/* Events in the area! */}
                     {/* <br></br> */}
                     <p style={{}}>
-                        <a href='https://calendar.google.com/calendar/u/0?cid=NTQ1YzdkZGM3OTQwZGM0M2UzOGYxZTE1Mjc0MjNjYmNlOTBiMzhhMTVhNDdkMzJlMGFjNjQyZmYzYTY3ZjhjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t'>add the google calendar</a>
+                        <a href='https://calendar.google.com/calendar/u/0?cid=NTQ1YzdkZGM3OTQwZGM0M2UzOGYxZTE1Mjc0MjNjYmNlOTBiMzhhMTVhNDdkMzJlMGFjNjQyZmYzYTY3ZjhjMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t'>view and add events to the gcal</a>
                         <br></br>
+                        <br></br>
+
                         🌸 = Recess!
 
                         <br></br>
                         <br></br>
-                        Craft communities:
+                        <b>Craft communities</b>
+<div style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', overflow: 'scroll'}}>
 
-                        <b>Boston</b>
-                        <ul style={{ padding: '0rem' }}>
+<div className='org-list'>
+Boston                        <ul style={{ padding: '0rem' }}>
 
-                            {orgs.map((org) => (
+                            {bostonorgs.map((org) => (
                                 <li style={{ margin: '0rem', listStyleType: 'none' }}>
                                     <a href={org.link}>
                                         {org.name}
@@ -187,11 +220,12 @@ function CraftClub() {
                                 </li>
                             ))}
                         </ul>
+</div>
 
-                        <b>Bay Area</b>
-                        <ul style={{ padding: '0rem' }}>
+<div className='org-list'>
+Bay Area                        <ul style={{ padding: '0rem' }}>
 
-                            {orgs.map((org) => (
+                            {bayorgs.map((org) => (
                                 <li style={{ margin: '0rem', listStyleType: 'none' }}>
                                     <a href={org.link}>
                                         {org.name}
@@ -199,11 +233,12 @@ function CraftClub() {
                                 </li>
                             ))}
                         </ul>
+</div>
 
-                        <b>New York</b>
-                        <ul style={{ padding: '0rem' }}>
+<div className='org-list'>
+New York                        <ul style={{ padding: '0rem' }}>
 
-                            {orgs.map((org) => (
+                            {nyorgs.map((org) => (
                                 <li style={{ margin: '0rem', listStyleType: 'none' }}>
                                     <a href={org.link}>
                                         {org.name}
@@ -211,11 +246,12 @@ function CraftClub() {
                                 </li>
                             ))}
                         </ul>
+</div>
 
-                        <b></b>
-                        <ul style={{ padding: '0rem' }}>
+<div className='org-list'>
+Philippines                        <ul style={{ padding: '0rem' }}>
 
-                            {orgs.map((org) => (
+                            {philorgs.map((org) => (
                                 <li style={{ margin: '0rem', listStyleType: 'none' }}>
                                     <a href={org.link}>
                                         {org.name}
@@ -223,6 +259,31 @@ function CraftClub() {
                                 </li>
                             ))}
                         </ul>
+</div>
+
+<div className='org-list'>
+Communities that inspire this one
+                        <ul style={{ padding: '0rem' }}>
+
+                            {otherorgs.map((org) => (
+                                <li style={{ margin: '0rem', listStyleType: 'none' }}>
+                                    <a href={org.link}>
+                                        {org.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+</div>
+</div>
+                        
+
+                        
+
+                        
+
+                        
+
+                        
 
 
                     </p>

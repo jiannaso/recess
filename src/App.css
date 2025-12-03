@@ -48,12 +48,18 @@ body {
   justify-content: center;
   display: flex;
 }
-
+.org-list {
+  width: 200px;
+  margin: 10px 10px 30px 0;
+  padding: 10px;
+  background-color: white;
+  min-width: 200px;
+}
 .floating-text {
-  float:left;
-  width: 270px;
+  /* float:left; */
+  /* width: 270px;
    padding-right: 2rem;
-    margin-right: 5rem;
+    margin-right: 5rem; */
 }
 
 @media (max-width: 799px) {
