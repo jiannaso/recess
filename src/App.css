@@ -67,9 +67,8 @@ body {
 
 .floating-text {
   float:left;
-  width: 350px;
-   padding-right: 2rem;
-    margin-right: 5rem;
+  width: 330px;
+  margin-right: 20px;
 }
 
 @media (max-width: 799px) {

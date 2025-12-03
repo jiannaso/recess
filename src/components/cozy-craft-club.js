@@ -354,6 +354,12 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
                     <h1 id='crafts' style={{ paddingTop: '4rem' }}>Crafts & Resources</h1>
                     <p>
                         Resources on what got me started and what continues to inspire me! I owe my craft life to the worldwide craft community online and in my many homes.
+<br></br>
+<br></br>
+
+                        <i>To add: P5.js, Touch Designer, web dev, silversmithing 
+                        <br></br>
+ + yours!!!</i>
 
                         <h2 style={{ paddingTop: '2rem' }}>Knitting</h2>
                         I grew up crocheting with my lola but knitting has become my favorite fiber art. I freehand most designs I knit; it connects me to myself, my taste, my body, and my craft. I have very simple freehand guides that I'm working on sharing!
