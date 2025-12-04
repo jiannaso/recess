@@ -192,11 +192,23 @@ function CraftClub() {
                         )
                         )}
                     </div>
+                
+
+                </div>
+                <div style={{width: '100%', padding: '40px', backgroundColor: 'rgb(255,255,255,.5', marginBottom: '4rem'}}>
+                    <h2>returning to recess</h2>
+                    <p>Growing up, <b>recess</b> was a given; the first few years of school dedicated consistent + structured time to play. Somehow, it disappears from our lives, despite the fact that <a href='https://www.avabear.xyz/p/radical-fun?utm_source=substack&utm_medium=email'>radical fun</a> is the <a href='https://thebaffler.com/salvos/whats-the-point-if-we-cant-have-fun'>point of life </a>and <a href='https://dl.acm.org/doi/abs/10.1145/3563657.3596057'>joy can liberate us</a>.
+                    
+                    This is a space to once again make <b>recess</b> a consistent part of life and practice a <a href='https://www.are.na/shayna-fowler/theory-of-play'>Theory of Play</a>. Here, play is "deep and uninterrupted engagement in the activity of one’s choice ", as defined in<a href='https://www.are.na/shayna-fowler/theory-of-play'> True Play</a>.
+                    <br></br>
+                    <br></br>
+
+                    Anyone and any craft are welcome! This <a href='https://www.are.na/block/9400568'> community is a garden</a>, where we nourish each other and show up intentionally. As <a href='https://www.goodreads.com/quotes/11391523-friendship-is-work-and-a-commitment-and-a-practice'>my favorite book says:</a> 1) the systems of our world can be ugly, 2) friendship can save us, but 3) these relationships are "work, and a commitment, and a practice". Let's commit to friendship and play!</p>
 
                 </div>
 
                 <div className='floating-text' style={{}}>
-                    <h1 id='calendar' style={{ paddingTop: '0rem',textAlign: 'left' }} >Craft Calendar</h1>
+                    <h1 id='calendar' style={{ paddingTop: '0rem',textAlign: 'left' }} >craft calendar</h1>
                     {/* Events in the area! */}
                     {/* <br></br> */}
                     <p style={{marginBottom: '2rem'}}>
@@ -356,8 +368,12 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
 <br></br>
 <p style={{textAlign:'right'}}><i>scroll →</i></p>
 
-                    <h1 id='crafts' style={{ paddingTop: '4rem' }}>Crafts & Resources</h1>
+                    <h1 id='crafts' style={{ paddingTop: '4rem' }}>crafts & resources</h1>
                     <p>
+                        Making anything with your hands is proof of how possible it is to divest from harmful systems and make better ones of your own. 
+                        <br></br>
+                        <br></br>
+
                         Resources on what got me started and what continues to inspire me! I owe my craft life to the worldwide craft community online and in my many homes.
 <br></br>
 <br></br>
