@@ -65,6 +65,8 @@ function CraftClub() {
         { link: 'https://feministspatialpractices.com/', name: 'Feminist Spatial Practices'},
         { link: 'https://playdates.commnunity/', name: 'Playdates' },
         { link: 'https://conditionaldesign.org/', name: 'Conditional Design' },
+        { link: 'https://www.instagram.com/_bastos.lab/', name: 'Bastos Lab' },
+
     ]
 
     const philorgs = [
