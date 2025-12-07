@@ -26,7 +26,7 @@ body {
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   /* margin: auto; */
   font-family: "Hanken Grotesk";
   /* background-color: white; */
@@ -291,7 +291,7 @@ p {
   margin: 3px 0;
   font-size: 16px;
   line-height: 150%;
-  text-align: center;
+  text-align: left;
 }
 
 h1,
@@ -362,12 +362,14 @@ a:hover {
   width: 70%;
   margin: auto;
   padding-bottom: 5rem;
+  text-align: left;
+
 }
 
 .blog-container-narrow {
   width: 60%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   padding-bottom: 5rem;
 }
 
