@@ -293,8 +293,8 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
 
 
                 <div style={{ textAlign: "left" }}>
-                <h1 id='crafts' style={{ paddingTop: '4rem' }}>Craft communities</h1>
-                <p>In Boston, the Bay, New York, & the Philippines. + inspirations! 
+                <h1 id='crafts' style={{ paddingTop: '4rem' }}>playgrounds</h1>
+                <p>Expansive craft communities in Boston, the Bay, New York, & the Philippines. + inspirations! 
                     <br></br>
                     <br></br>
 
