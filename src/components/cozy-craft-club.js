@@ -40,6 +40,8 @@ function CraftClub() {
         { link: 'https://camlab.fas.harvard.edu/', name: 'Harvard CAMLab' },
         { link: 'https://pad.land/BostonArtLists', name: '🌸 Boston Arts List' },
         { link: 'https://www.artsboston.org/abcalendar/', name: 'Arts Boston Calendar' },
+        { link: 'https://www.exitgalleries.com/', name: 'Exit Galleries' },
+
 
 
     ]
