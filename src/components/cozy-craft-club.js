@@ -1,13 +1,13 @@
 import flowerSticker from "../media/flower.png"
-import { createClient } from '@supabase/supabase-js'
+// import { createClient } from '@supabase/supabase-js'
 import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid' // a plugin!
-import { Calendar } from '@fullcalendar/core'
+// import { Calendar } from '@fullcalendar/core'
 import listPlugin from '@fullcalendar/list';
 // import '../App.css';
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
-import flower from '../media/flower.jpeg';
+// import flower from '../media/flower.jpeg';
 import { useState, useEffect } from "react";
 import React from 'react';
 import ruha from '../media/ruha.png';
@@ -18,14 +18,14 @@ import kimchi from '../media/kimchi.jpg';
 import flowers from '../media/flowers.jpg';
 import door from '../media/door.jpg';
 
-import bunito from '../media/bunito.jpg';
-import farm from '../media/farm.jpg';
-import ikebana from '../media/ikebana.jpg';
-import ikebana2 from '../media/ikebana2.jpg';
-import silver1 from '../media/silver1.jpeg';
-import silver2 from '../media/silver2.jpeg';
+// import bunito from '../media/bunito.jpg';
+// import farm from '../media/farm.jpg';
+// import ikebana from '../media/ikebana.jpg';
+// import ikebana2 from '../media/ikebana2.jpg';
+// import silver1 from '../media/silver1.jpeg';
+// import silver2 from '../media/silver2.jpeg';
 import dolly from '../media/dolly.jpg';
-import closeted from '../media/closeted.jpg';
+// import closeted from '../media/closeted.jpg';
 
 function CraftClub() {
     const date = new Date("December 17, 2025 03:24:00")
