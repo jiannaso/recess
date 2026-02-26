@@ -197,7 +197,7 @@ function CraftClub() {
                     <div className="logos-slide">
                         {images.map((item) => (
 
-                            <img alt={"sliding image"} style={{ width: '' }} src={item.image} />
+                            <img alt={"sliding"} style={{ width: '' }} src={item.image} />
                         )
                         )}
                     </div>
