@@ -15,6 +15,9 @@ import bananaleaves from '../media/bananaleaves.jpg';
 import bonnet from '../media/bonnet.jpg';
 import knit from '../media/knit.jpg';
 import kimchi from '../media/kimchi.jpg';
+import flowers from '../media/flowers.jpg';
+import door from '../media/door.jpg';
+
 import bunito from '../media/bunito.jpg';
 import farm from '../media/farm.jpg';
 import ikebana from '../media/ikebana.jpg';
@@ -167,6 +170,8 @@ function CraftClub() {
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingTop: '0.5rem' }}>
                     <div style={{ width: '200px', marginRight: '10px', paddingRight: '', flex: '0 0 auto' }}>
                         <h3> <a href='#calendar'>calendar</a> ✶ <a href="#crafts">crafts</a></h3>
+                        <h3 style={{ marginBottom: '0'}}> <b>upcoming:</b><br></br> </h3>
+                        <span><p>fri feb 27<br></br>7 - 10pm</p></span>
 
                     </div>
                     <div style={{ width: "720px", paddingTop: "", marginRight: '0rem' }}>
@@ -210,7 +215,18 @@ function CraftClub() {
 
                 </div>
 
+                <div style={{paddingBottom: '4rem',}}>
+                <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', paddingTop: '0', flexWrap:'wrap'}}>
+                        <img style={{ height: '300px', padding: '2px' }} src={door} />
+                        <img style={{ height: '300px', padding: '2px' }} src={flowers} />
+
+                    </div>
+                    <p style={{textAlign:'center', padding: '10px 0'}}><i>@ Ji's</i></p>
+
+                </div>
+                
                 <div className='floating-text' style={{}}>
+                    
                     <h1 id='calendar' style={{ paddingTop: '0rem',textAlign: 'left' }} >craft calendar</h1>
                     {/* Events in the area! */}
                     {/* <br></br> */}
@@ -290,9 +306,11 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
                 </div>
 
 
-
-
+                {/* <div style={{display: 'flex', flexDirection:'row', marginTop:'3rem', marginBottom:'3rem', justifyContent: 'center', flexWrap:'wrap'}}>
+                        <img style={{ height: '300px', padding: '0px 5px 5px 0' }} src={flowers} />
+                    </div> */}
                 <div style={{ textAlign: "left" }}>
+
                 <h1 id='crafts' style={{ paddingTop: '4rem' }}>playgrounds</h1>
                 <p>Expansive craft communities in Boston, the Bay, New York, & the Philippines. + inspirations! 
                     <br></br>
@@ -474,6 +492,10 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
 
             <h4 style={{ paddingBottom: '3rem', paddingTop: "2rem", textAlign: 'center' }}>
                 🌸
+                <br></br>
+
+                <br></br>
+                <img style={{ width: '100%', padding: '2px' }} src={ruha} />
                 <br></br>
                 <br></br>
 
