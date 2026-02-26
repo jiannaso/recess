@@ -197,7 +197,7 @@ function CraftClub() {
                     <div className="logos-slide">
                         {images.map((item) => (
 
-                            <img style={{ width: '' }} src={item.image} />
+                            <img alt={"sliding image"} style={{ width: '' }} src={item.image} />
                         )
                         )}
                     </div>
@@ -217,8 +217,8 @@ function CraftClub() {
 
                 <div style={{paddingBottom: '4rem',}}>
                 <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', paddingTop: '0', flexWrap:'wrap'}}>
-                        <img style={{ height: '300px', padding: '2px' }} src={door} />
-                        <img style={{ height: '300px', padding: '2px' }} src={flowers} />
+                        <img style={{ height: '300px', padding: '2px' }} src={door}alt={"the door to recess"} />
+                        <img style={{ height: '300px', padding: '2px' }} src={flowers} alt={"flowers at recess"}/>
 
                     </div>
                     <p style={{textAlign:'center', padding: '10px 0'}}><i>@ Ji's</i></p>
@@ -495,7 +495,7 @@ AIzaSyC1mvPfHAQu0hXJnkMTGGMsDE5Y0rlQPIQ
                 <br></br>
 
                 <br></br>
-                <img style={{ width: '100%', padding: '2px' }} src={ruha} />
+                <img style={{ width: '100%', padding: '2px' }} src={ruha} alt={"ruha benjamin quote: 'make sure to create the worlds you cannot live without, just as you dismantle the ones you cannot live within"}/>
                 <br></br>
                 <br></br>
 
