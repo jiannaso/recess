@@ -8,7 +8,7 @@ import listPlugin from '@fullcalendar/list';
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
 // import flower from '../media/flower.jpeg';
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import React from 'react';
 import ruha from '../media/ruha.png';
 import bananaleaves from '../media/bananaleaves.jpg';
@@ -28,7 +28,7 @@ import dolly from '../media/dolly.jpg';
 // import closeted from '../media/closeted.jpg';
 
 function CraftClub() {
-    const date = new Date("December 17, 2025 03:24:00")
+    // const date = new Date("December 17, 2025 03:24:00")
     const grayColor = '#F2F2F2'
     //                     Boston Orgs: Boston Queer Fiber Arts, Boston Tech Poetics, and Live Code Boston. An occasional shoutout to Arts at the Armory, Artisans Asylum, and Gather Here.
 
@@ -85,7 +85,7 @@ function CraftClub() {
     ]
 
 
-    const [images, setImages] = useState(
+    const images =
         [
 
             {
@@ -130,7 +130,7 @@ function CraftClub() {
                 image: bonnet
             }
         ]
-    )
+    
 
     useEffect(() => {
         // Set up the interval to run every 5000 milliseconds (5 seconds)
