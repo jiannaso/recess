@@ -171,7 +171,7 @@ function CraftClub() {
                     <div style={{ width: '200px', marginRight: '10px', paddingRight: '', flex: '0 0 auto' }}>
                         <h3> <a href='#calendar'>calendar</a> ✶ <a href="#crafts">crafts</a></h3>
                         <h3 style={{ marginBottom: '0'}}> <b>upcoming:</b><br></br> </h3>
-                        <span><p>fri feb 27<br></br>7 - 10pm</p></span>
+                        <span><p>fri, mar 3<br></br>7 - 10pm</p></span>
 
                     </div>
                     <div style={{ width: "720px", paddingTop: "", marginRight: '0rem' }}>
